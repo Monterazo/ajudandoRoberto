@@ -2,7 +2,7 @@
 const character = document.getElementsByClassName("character")[0];
 const containerCharacter = document.getElementsByClassName("container-character")[0];
 
-//Define a velocidade como 10px
+//Define a velocidade (quantidade de pixeis que vão ser movidos por iteração) como 10px
 const VELOCITY = 10;
 
 //Pega a altura e largura da tela do usuário por meio do DOM e utiliza como dados para o jogo
