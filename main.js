@@ -6,8 +6,8 @@ const containerCharacter = document.getElementsByClassName("container-character"
 const VELOCITY = 10;
 
 //Pega a altura e largura da tela do usuário por meio do DOM e utiliza como dados para o jogo
-const SCREEN_WIDTH = screen.width;
-const SCREEN_HEIGHT = window.innerHeight; //Aqui troquei pra window.innerHeight porque o screen.height era maior que o viewport :)
+const SCREEN_WIDTH = window.innerWidth; //Aqui troquei pra window.innerWidth porque o screen.width era maior que o viewport :)
+const SCREEN_HEIGHT = window.innerHeight; //Troquei pra window.innerHeight
 
 //Informa as posições horizontal e vertical iniciais do personagem "Pedro", já definidas no CSS
 let xPosition = 500;
